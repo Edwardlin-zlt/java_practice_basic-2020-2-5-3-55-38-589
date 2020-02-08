@@ -1,4 +1,3 @@
-import com.sun.webkit.ThemeClient;
 import model.Student;
 import model.Teacher;
 
@@ -18,7 +17,7 @@ public class Application {
 
     public static void printAll(Student stu) {
         System.out.println("姓名: " + stu.getName());
-        System.out.println("年龄: " + stu.getAge());
+        System.out.println("年龄: " + stu.getAge() + "岁");
         if (stu.isMale()) {
             System.out.println("性别: 男");
         } else {
